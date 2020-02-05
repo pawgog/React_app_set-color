@@ -1,12 +1,21 @@
-.wrapper {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 100px;
+.Wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
 }
 
-.content {
-    width: 100px;
-    height: 100px;
+.Content {
+  width: 100px;
+  height: 100px;
+}
+
+.FontColor {
+  &__white {
+    color: #ffffff;
+  }
+  &__black {
+    color: #000000;
+  }
 }

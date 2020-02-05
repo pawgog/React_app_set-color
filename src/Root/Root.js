@@ -3,9 +3,9 @@ import './Root.css';
 import ColorList from '../Components/ColorList/ColorList'
 
 const Root = () => (
-    <>
-      <ColorList/>
-    </>
-  );
+  <>
+    <ColorList />
+  </>
+);
 
 export default Root;
