@@ -1,17 +1,17 @@
 .button {
-    border-radius: 10px;
-    border: 1px solid #7b7c7d;
-    font-size: 16px;
-    margin: 10px 20px;
-    padding: 10px 20px;
-    text-decoration: none;
+  border-radius: 10px;
+  border: 1px solid #7b7c7d;
+  font-size: 16px;
+  margin: 10px 20px;
+  padding: 10px 20px;
+  text-decoration: none;
 
-    &__white{
-        @extend .button;
-        color: #ffffff;
-    }
-    &__black {
-        @extend .button;
-        color: #000000;
-    }
+  &__white{
+    @extend .button;
+    color: #ffffff;
+  }
+  &__black {
+    @extend .button;
+    color: #000000;
+  }
 }

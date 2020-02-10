@@ -1,5 +1,5 @@
 import React from 'react';
-import './Root.css';
+import './Root.scss';
 import ColorList from '../Components/ColorList/ColorList'
 
 const Root = () => (
